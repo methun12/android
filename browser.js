@@ -101,39 +101,7 @@ function nTl(n){
     
 
 }
-    	function nTc(s){
-		switch(s){
-			case "1":
-				return Chrome100;
-				break;
-			case "2":
-				return Chrome101;
-				break;
-			case "3":
-				return Chrome102;
-				break;
-			case "4":
-				return Chrome103;
-				break;
-			case "5":
-				return Chrome104;
-				break;
-			case "6":
-				return Chrome105;
-				break;
-			case "7":
-				return Chrome106;
-				break;
-			case "8":
-				return Chrome107;
-				break;
-			case "9":
-				return Chrome108;
-				break;
-			default:
-				return "not found!";
-		}
-	}
+
 
    function getChrome(v){
         var lng = Object.keys(v).length;
@@ -141,3 +109,36 @@ function nTl(n){
         var ln = nTl(ran);
         return v[ln];
     }
+    function nTc(s){
+	switch(s){
+	        case "1":
+			return Chrome100;
+			break;
+		case "2":
+	         	return Chrome101;
+			break;
+		case "3":
+			return Chrome102;
+			break;
+		case "4":
+			return Chrome103;
+			break;
+		case "5":
+			return Chrome104;
+			break;
+		case "6":
+			return Chrome105;
+			break;
+		case "7":
+			return Chrome106;
+			break;
+		case "8":
+			return Chrome107;
+			break;
+		case "9":
+			return Chrome108;
+			break;
+		default:
+			return "not found!";
+		}
+	}
